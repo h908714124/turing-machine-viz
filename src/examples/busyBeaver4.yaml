@@ -23,15 +23,10 @@ source code: |
   # and require individual analysis.
 
   # This 4-state busy beaver was proven by Allen Brady in 1983.
-  # Busy beavers for 5 states and above are as yet unknown.
-  # At the time of writing, the current 5-state 2-symbol contender
-  # takes 47,176,870 steps to halt, and the 6-state contender
-  # takes over 7.4 * 10^36534 steps
-  # (http://www.logique.jussieu.fr/~michel/bbc.html).
-  # "Given that 5-state 2-symbol halting Turing machines can compute
-  # Collatz-like congruential functions, it may be very hard to find
-  # [the next busy beaver]" (https://oeis.org/A060843).
-
+  # The 5-state busy beaver takes 47,176,870 steps to halt,
+  # and the current 6-state champion takes a number of steps
+  # that requires "large" exponential towers to express.
+  # (https://wiki.bbchallenge.org/wiki/1RB1RA_1RC1RZ_1LD0RF_1RA0LE_0LD1RC_1RA0RE)
 
   # An entertaining read on busy beavers and their profoundness:
 
